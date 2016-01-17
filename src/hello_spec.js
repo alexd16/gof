@@ -1,8 +1,8 @@
 var expect = require('expect.js')
 var hello = require('./hello');
 
-describe('hello', function() {
-  it('returns hello', function() {
+describe('hello', ()=> {
+  it('returns hello', ()=> {
     expect(hello()).to.be('Hello World');
   });
 });
